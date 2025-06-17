@@ -15,7 +15,7 @@ docker run --name {{CONTAINER_NAME}} -p {{PORT}}:5432 -e POSTGRES_USER={{USERNAM
 Then it's done🎉🎉, just add the db info to the env and if you need a GUI to view your db, you can use [Table Plus](https://tableplus.com/) (Recommended) or pgAdmin 
 
 
-# Project Setup
+# Project Setup ag
 The backend go all in on *bun* as it is way faster than both npm and yarn and has more community support than pnpm. Since we use both Typescript and ESM module, Bun seem to be the fastest and easier to run.
 To get started, run:
 ```bash
